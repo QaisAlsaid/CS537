@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/solution/letter-boxed-dbg",
+      "args": ["test_board", "dict.txt"],
+      "cwd": "${workspaceFolder}",
+      "stopOnEntry": false,
+      //"preLaunchTask": "make"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(nish LANGUAGES C)
+set(CMAKE_C_STANDARD 19)
+set(CMAKE_C_STANDARD_REQUIRED TRUE)
+
+set(NISH_PATH)

@@ -1,0 +1,33 @@
+{
+  "cmake.sourceDirectory": "${workspaceFolder}/",
+  "cmake.buildDirectory": "${workspaceFolder}/build",
+  "cmake.buildArgs": [""],
+  
+  // annoying  
+  "cmake.configureOnOpen": false,
+  "cmake.configureOnEdit": true,
+
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/",
+    "--clang-tidy",
+    "--all-scopes-completion",
+    "--completion-style=detailed",
+    "--header-insertion=iwyu",    
+  ],
+  "clangd.path": "/usr/bin/clangd",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+  "cSpell.words": [
+    "Allman",
+    "bugprone",
+    "cppcoreguidelines",
+    "errorln",
+    "logln",
+    "nrtt",
+    "okc",
+    "oktest",
+    "traceln",
+    "uoot",
+    "warnln"
+  ],
+}
